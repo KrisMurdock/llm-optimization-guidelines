@@ -34,6 +34,10 @@
 | 4 | Goal-Driven Execution | 定义可验证的成功标准 |
 | 5.x | Implementation Rules | 13 条落地规则（见 CLAUDE.md） |
 
+## 致谢
+
+本项目基于 [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 的 CLAUDE.md 行为准则扩展而来，新增了「优化指导文档落地实施」相关的 13 条规则。
+
 ## License
 
 MIT

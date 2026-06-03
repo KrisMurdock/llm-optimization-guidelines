@@ -42,6 +42,16 @@ This repository abstracts a set of universal rules to help strong models produce
 | 4 | Goal-Driven Execution | Define verifiable success criteria |
 | 5.x | Implementation Rules | 13落地 rules (see CLAUDE.md) |
 
+### How the Rules Were Forged
+
+The 13 additional rules in Chapter 5 emerged from an iterative multi-model feedback loop:
+
+1. **GPT-5.5** reviews code, identifies problems, and proposes fixes
+2. **Weaker models** (mimo, Qwen3.6-Plus, etc.) strictly follow the optimization guidance and implement the changes
+3. **GPT-5.5** then audits the gap between the original suggestions and the actual implementation, surfacing inconsistencies and shortcomings
+
+After multiple rounds of this cycle, the recurring failure patterns were abstracted into the 13 rules now codified in `CLAUDE.md`.
+
 ### Acknowledgments
 
 This project extends the CLAUDE.md behavioral guidelines from [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills), with 13 additional rules focused on implementing optimization guidance documents.
@@ -85,6 +95,16 @@ This project extends the CLAUDE.md behavioral guidelines from [multica-ai/andrej
 | 3 | Surgical Changes | 只改必须改的 |
 | 4 | Goal-Driven Execution | 定义可验证的成功标准 |
 | 5.x | Implementation Rules | 13 条落地规则（见 CLAUDE.md） |
+
+### 这些规则是如何产生的
+
+第 5 章新增的 13 条规则来自多轮多模型迭代反馈循环：
+
+1. **GPT-5.5** 审查代码，发现问题并给出修改建议
+2. **弱模型**（mimo、Qwen3.6-Plus 等）严格按照优化建议执行修改
+3. **GPT-5.5** 再审查修改建议与模型实际代码之间的差距，挖掘不一致和缺点
+
+经过多轮这样的循环，反复出现的失败模式被抽象成 `CLAUDE.md` 中第 5 章的 13 条规则。
 
 ### 致谢
 
